@@ -1,0 +1,104 @@
+{
+  "captured_date": "2026-10-15",
+  "status": "User reports USB connection successful; on-board binary hash not read back.",
+  "local_bitstream": {
+    "name": "audio_tone.fs",
+    "local_modified": "2026-10-15T15:51:26.595767",
+    "sha256": "0dd15191509f8a8f78332bc7673ed701e06f75256acdf2e26b071975cf1fbdc8",
+    "included": false
+  },
+  "files": [
+    {
+      "path": "src/gowin_osc/gowin_osc.v",
+      "sha256": "38a9fbc93cb69663976b2f5fcfb2510ffa48909387aa4d7f5daf7e764060f507"
+    },
+    {
+      "path": "src/top.v",
+      "sha256": "8e4aca1a54c016376b2d899199ffc865e62b8f2ac31994d422e7fed73e6f5c51"
+    },
+    {
+      "path": "src/sine_wave.v",
+      "sha256": "fa9c6c41ddba59dd2c90ddbc10154b7dbaf4d434bd2d4f1a9b0b8e3cd6c9704f"
+    },
+    {
+      "path": "src/audio_driver.v",
+      "sha256": "9d4c3503effab0b23a6b17e70c8afc91a2d5a48c88d99b06bd67e1e0ebf503e8"
+    },
+    {
+      "path": "src/uart_tx.v",
+      "sha256": "d08a19be7ccb17d6be78cd113c6d03f5c1b96d17fff5a12b5e7ed1a0b98274bb"
+    },
+    {
+      "path": "src/key_toggle.v",
+      "sha256": "d793cbd86c47adcf4dd4dc46b28553c27d6b78f5b01d7b6457d9460dbb57cc3f"
+    },
+    {
+      "path": "src/vofa_uart.v",
+      "sha256": "748e562a80c4b50dce2b0ed05549c15ebcdba851b4bf98ea0e8430f2423a3024"
+    },
+    {
+      "path": "src/audio.cst",
+      "sha256": "b9f7aa69f69c49ec0665c44555edf41674e656e77dd497a67fccf4f3f7d14ded"
+    },
+    {
+      "path": "src/timing.sdc",
+      "sha256": "c8286dcb25ebed2148fdcce0f72a5300c74c56f8dce0e0308cba268e319b7318"
+    },
+    {
+      "path": "src/usb_hid_host.v",
+      "sha256": "fc75d221bb34ba3c12f743f482b8b207589fac61c04a6bb8c6bfd3fe4594a688"
+    },
+    {
+      "path": "src/usb_hid_host_rom.v",
+      "sha256": "b0f1e3e256f21dfe3736423783a004e5bdeed740e91877575c5832cccd7e99aa"
+    },
+    {
+      "path": "src/usb_pll.v",
+      "sha256": "a3e2f60ba90d2e7f2abb042aaaaaaad5cdf2bf2daf3e499d9592a8b24af5514a"
+    },
+    {
+      "path": "src/usb_pll_mod.v",
+      "sha256": "76ae01e928db8062b4dea2305686a8c6210072ff4502d8c26e10070af86aeff2"
+    },
+    {
+      "path": "src/pll_init.v",
+      "sha256": "d3ef56fcf0f6496e6d9ef3a29776375683e3c8934bc87899ad7d8029f7950517"
+    },
+    {
+      "path": "src/usb_a_key.v",
+      "sha256": "ea1aefd02f0f65313718ae584f127af60559f413e530391332b1cc6124a7d1f5"
+    },
+    {
+      "path": "src/status_led.v",
+      "sha256": "072dfe1ebfd4621756fab22c00d6dc7fd390c054fbc8a0c143d7edff39cbcd31"
+    },
+    {
+      "path": "src/vofa_protocol.vh",
+      "sha256": "16cb7345eda2d8f986450adfe694fe60e5a046d5e815f3a4fe424522180c8655"
+    },
+    {
+      "path": "src/usb_hid_host_rom.hex",
+      "sha256": "c80a8ab72c1a685fd2f183976144340963f47579bceb9d79eb57d31537dbf00a"
+    },
+    {
+      "path": "build.tcl",
+      "sha256": "2700ebe0aac0092df8232ef485b0a74f2e6e2237a0f9582bbe7b47137798a010"
+    },
+    {
+      "path": "audio_tone.gprj",
+      "sha256": "7c48293f8de3b4f09b44773dd81adeb8345e59a691020ff2d839bd4005575c4e"
+    },
+    {
+      "path": "sim/tb_usb_a.v",
+      "sha256": "6483c44db762ea52c6991f097295c4f0da913526a3a3a59fa5d878aff4e0bd91"
+    },
+    {
+      "path": "sim/run_usb.do",
+      "sha256": "b6b0d3204d71d946ae19345518d1b854ed9a4752e2207aca81840734df6e99a5"
+    },
+    {
+      "path": "USB_HOST_LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    }
+  ]
+}

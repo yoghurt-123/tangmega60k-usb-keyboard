@@ -1,0 +1,9 @@
+impl/
+*.gprj.user
+usb_work/
+work/
+transcript
+*.wlf
+*.log
+*.fs
+__pycache__/
